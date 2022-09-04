@@ -4,7 +4,7 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
+  SiPowershell,
   SiAdobephotoshop,
 } from "react-icons/si";
 
@@ -24,7 +24,7 @@ function Toolstack() {
         <SiAdobephotoshop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiPowershell />
       </Col>
     </Row>
   );
